@@ -16,10 +16,10 @@ function App() {
 
       <main>
         <Routes>
-          <Route path="/service-site/" element={<Home />} />
-          <Route path="/service-site/about" element={<About />} />
-          <Route path="/service-site/offers" element={<Offers />} />
-          <Route path="/service-site/book_bg" element={<BookSession_beginner/>} />
+          <Route path="/king-maker-site/" element={<Home />} />
+          <Route path="/king-maker-site/about" element={<About />} />
+          <Route path="/king-maker-site/offers" element={<Offers />} />
+          <Route path="/king-maker-site/book_bg" element={<BookSession_beginner/>} />
         </Routes>
       </main>
     </>

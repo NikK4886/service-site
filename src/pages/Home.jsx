@@ -12,7 +12,7 @@ function Home() {
                 <div>
                     <h1>Quality Chess Lessons for Anyone and Everyone!</h1>
 
-                    <Link to="/service-site/book_bg" className="btn-primary">
+                    <Link to="/king-maker-site/book_bg" className="btn-primary">
                         Book a Session!
                     </Link>
                 </div>
@@ -46,10 +46,10 @@ function Home() {
                 <img src={`${import.meta.env.BASE_URL}images/chess-pieces-icon.png" alt="Chess pieces`} />
 
                 <div className="button-row">
-                    <Link to="/service-site/about" className="btn-dark">
+                    <Link to="/king-maker-site/about" className="btn-dark">
                         Contact Info
                     </Link>
-                    <Link to="/service-site/book_bg" className="btn-primary">
+                    <Link to="/king-maker-site/book_bg" className="btn-primary">
                         Book a Session!
                     </Link>
                 </div>
