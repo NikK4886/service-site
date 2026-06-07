@@ -1,0 +1,28 @@
+.section {
+    padding: var(--section-padding);
+}
+
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 3rem;
+}
+
+.three-column {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem; 
+}
+
+@media (max-width: 768px) {
+    .two-column,
+    .three-column {
+        grid-template-columns: 1fr;
+    }
+
+    .section {
+        padding: 3rem 6%;
+    }
+}
+

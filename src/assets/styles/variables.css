@@ -1,0 +1,20 @@
+:root {
+    --color-yellow: #FFE206;
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-blue: #1e9bff;
+    --color-light-gray: #f7f7f7;
+    --color-text-gray: #555555;
+    --color-bg: #a17b00;
+
+    --bg-rgb: 161, 123, 0;
+    --bg-color: rgb(var(--bg-rgb), 16%);
+
+
+    --font-heading: "Kdam Thmor Pro", sans-serif;
+    --font-body: "Itim", cursive;
+    --font-ui: "Inter", Arial, Helvetica, sans-serif;
+
+    --section-padding: 4rem 8%;
+    --max-width: 1200px;
+}
