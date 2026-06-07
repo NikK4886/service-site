@@ -14,14 +14,14 @@ function BookSession_beginner() {
                     <h2>Your chess journey starts here</h2>
                 </div>
 
-                <img src="/images/user-icon.png" alt="user icon" />
+                <img src={`${import.meta.env.BASE_URL}images/user-icon.png`} alt="user icon" />
             </section>
 
             <SectionDivider />
 
             <section className="section lesson-confirmation">
                 <div className="lesson-icon-large">
-                    <img src="/images/pawn-icon.png" alt="Pawn icon" />
+                    <img src={`${import.meta.env.BASE_URL}images/pawn-icon.png`} alt="Pawn icon" />
                 </div>
 
                 <p>
@@ -44,7 +44,7 @@ function BookSession_beginner() {
             </section>
 
             <section className="section two-column">
-                <img src="/images/chess-questions.png" alt="Chess questions" />
+                <img src={`${import.meta.env.BASE_URL}images/chess-questions.png`} alt="Chess questions" />
 
                 <div>
                     <h2>Have questions or concerns?</h2>

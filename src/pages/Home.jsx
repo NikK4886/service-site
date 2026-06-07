@@ -18,7 +18,7 @@ function Home() {
                 </div>
 
                 <img
-                    src="/images/chess-board.png"
+                    src={`${import.meta.env.BASE_URL}images/chess-board.png`}
                     alt="Chess board"
                     className="hero-img"
                 />
@@ -43,7 +43,7 @@ function Home() {
                     
                 </div>
 
-                <img src="/images/chess-pieces-icon.png" alt="Chess pieces" />
+                <img src={`${import.meta.env.BASE_URL}images/chess-pieces-icon.png" alt="Chess pieces`} />
 
                 <div className="button-row">
                     <Link to="/service-site/about" className="btn-dark">

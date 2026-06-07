@@ -26,8 +26,8 @@ function About() {
                 </div>
 
                 <div>
-                    <img src="/images/king-icon.png" alt="King Maker mascot" />
-                    <img src="/images/chess-board2.png" alt="Chess board" />
+                    <img src={`${import.meta.env.BASE_URL}images/king-icon.png`} alt="King Maker mascot" />
+                    <img src={`${import.meta.env.BASE_URL}images/chess-board2.png`} alt="Chess board" />
                 </div>
             </section>
 

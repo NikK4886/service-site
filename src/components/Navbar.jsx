@@ -4,7 +4,7 @@ function Navbar() {
     return (
         <header className="navbar">
             <Link to="/service-site/" className="navbar-logo">
-                <img src="/images/logo.png" alt="King Maker logo" />
+                <img src={`${import.meta.env.BASE_URL}images/logo.png`} alt="King Maker logo" />
                 <span> King Maker </span>
             </Link>
 
