@@ -43,7 +43,7 @@ function Home() {
                     
                 </div>
 
-                <img src={`${import.meta.env.BASE_URL}images/chess-pieces-icon.png" alt="Chess pieces`} />
+                <img src={`${import.meta.env.BASE_URL}images/chess-pieces-icon.png`} alt="Chess pieces" />
 
                 <div className="button-row">
                     <Link to="/king-maker-site/about" className="btn-dark">

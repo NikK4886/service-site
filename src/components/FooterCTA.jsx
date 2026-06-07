@@ -13,7 +13,7 @@ function FooterCTA() {
                 </Link>
 
             <img 
-                src="/images/chess-footer.png"
+                src={`${import.meta.env.BASE_URL}images/chess-footer.png`}
                 alt="Blue chess pieces"
                 className="footer-chess-img"
                 />
