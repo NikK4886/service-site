@@ -12,7 +12,7 @@ function Home() {
                 <div>
                     <h1>Quality Chess Lessons for Anyone and Everyone!</h1>
 
-                    <Link to="/book_bg" className="btn-primary">
+                    <Link to="/service-site/book_bg" className="btn-primary">
                         Book a Session!
                     </Link>
                 </div>
@@ -46,10 +46,10 @@ function Home() {
                 <img src="/images/chess-pieces-icon.png" alt="Chess pieces" />
 
                 <div className="button-row">
-                    <Link to="/about" className="btn-dark">
+                    <Link to="/service-site/about" className="btn-dark">
                         Contact Info
                     </Link>
-                    <Link to="/book_bg" className="btn-primary">
+                    <Link to="/service-site/book_bg" className="btn-primary">
                         Book a Session!
                     </Link>
                 </div>

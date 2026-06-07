@@ -49,7 +49,7 @@ function BookSession_beginner() {
                 <div>
                     <h2>Have questions or concerns?</h2>
                     <p>Feel free to contact us for a consultation free of charge</p>
-                    <Link to="/about" className="btn-dark">
+                    <Link to="/service-site/about" className="btn-dark">
                         Contact Info
                     </Link>
                 </div>

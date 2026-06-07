@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export const lessons = [
     {
     id: "beginner",
-    link: "/book_bg",
+    link: "/service-site/book_bg",
     title: "Beginner",
     image: "/images/pawn-icon.png",
     description:
@@ -11,7 +11,7 @@ export const lessons = [
   },
   {
     id: "intermediate",
-    link: "/book_bg",
+    link: "/service-site/book_bg",
     title: "Intermediate",
     image: "/images/knight-icon.png",
     description:
@@ -19,7 +19,7 @@ export const lessons = [
   },
   {
     id: "advanced",
-    link: "/book_bg",
+    link: "/service-site/book_bg",
     title: "Advanced",
     image: "/images/queen-icon.png",
     description:
